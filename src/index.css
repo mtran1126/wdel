@@ -1,0 +1,101 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background-color: #f7f3ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f3ea;
+}
+
+#root {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.station-header {
+  background-color: #1f2a44;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  border-bottom: 6px solid #c8a45d;
+}
+
+.station-header h1 {
+  margin: 0;
+  font-size: 56px;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.station-header p {
+  margin: 8px 0 0;
+  font-size: 18px;
+}
+
+.stream-player {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 25px 0;
+  border: 1px solid #ddd7cc;
+  border-radius: 8px;
+}
+
+.stream-player h2 {
+  margin-top: 0;
+  color: #1f2a44;
+}
+
+.stream-player button {
+  border: none;
+  background-color: #1f2a44;
+  color: white;
+  font-size: 20px;
+  padding: 12px 16px;
+  margin: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.stream-player button:hover {
+  background-color: #344365;
+}
+
+.live-badge {
+  background-color: #b3261e;
+  color: white;
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+
+.coverage-map {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd7cc;
+  border-radius: 8px;
+}
+
+.coverage-map h2 {
+  margin-top: 0;
+  color: #1f2a44;
+}
+
+.coverage-map p {
+  margin-bottom: 18px;
+  color: #5f6368;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
